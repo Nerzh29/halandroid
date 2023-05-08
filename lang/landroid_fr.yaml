@@ -7,11 +7,11 @@ homeassistant:
     switch.mower_home:
       friendly_name: Retour à la maison
     switch.mower_edgecut:
-      friendly_name: Coupe à bord
+      friendly_name: Coupe bordures
     switch.mower_partymode:
       friendly_name: Mode de fete
     switch.mower_lock:
-      friendly_name: La serrure
+      friendly_name: Verrouillage
 
   # Sensors ############
     sensor.landroid_mower_battery:
@@ -26,9 +26,9 @@ homeassistant:
       friendly_name: Adresse IP
 
     sensor.mower_bladetime:
-      friendly_name: Temps de coupe des lames
+      friendly_name: Temps de travail des lames
     sensor.mower_current_bladetime:
-      friendly_name: Actuel temps de coupe des lames
+      friendly_name: Temps actuel de travail des lames
     sensor.mower_totaltime:
       friendly_name: Temps de travail
     sensor.mower_distance:
@@ -117,19 +117,19 @@ homeassistant:
     #  friendly_name: Samedi
 
     #input_boolean.mower_0_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
     #input_boolean.mower_1_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
     #input_boolean.mower_2_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
     #input_boolean.mower_3_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
     #input_boolean.mower_4_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
     #input_boolean.mower_5_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
     #input_boolean.mower_6_cuttoedge:
-    #  friendly_name: Coupe à bord
+    #  friendly_name: Coupe des bords
 
 
   # Automations ########
